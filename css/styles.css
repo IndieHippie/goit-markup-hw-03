@@ -29,7 +29,7 @@ body {
   background-color: var(--background-color);
   font-family: var(--main-font-family);
   font-size: 14px;
-  letter-spacing: 0.03en;
+  letter-spacing: 0.03em;
 }
 
 
@@ -147,7 +147,7 @@ body {
 /* Main */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   background-color: tomato;
 }
