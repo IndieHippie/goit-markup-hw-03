@@ -248,8 +248,8 @@ body {
 .services-list {
   text-align: center;
   list-style: none;
-  padding-left: 0;
-  margin: 0 auto;
+  /* padding-left: 0;
+  margin: 0 auto; */
   /* display: flex; */
 }
 .services-list-item {
