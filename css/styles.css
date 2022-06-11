@@ -95,7 +95,7 @@ address {
   margin-right: 50px;
 }
 
-.header-item { 
+.header-item {
   color: var(--color);
   font-weight: 500;
   font-size: 14px;
@@ -190,7 +190,7 @@ address {
 
 .features-list {
   display: flex;
- 
+
   padding-left: 0;
   padding-top: 94px;
 }
@@ -296,7 +296,7 @@ address {
 .button-list {
   display: flex;
   justify-content: center;
-  
+
   margin-bottom: 50px;
   padding-top: 94px;
 }
