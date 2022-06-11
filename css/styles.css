@@ -47,7 +47,6 @@ address {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  /* border: 1px solid tomato; */
 }
 
 .list {
@@ -84,14 +83,8 @@ address {
   font-family: var(--second-font-family);
   font-weight: 700;
   font-size: 26px;
-  line-height: 2.21;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.main-logo,
-.header-list-item a,
-.contact-link-item {
-  line-height: 1.5;
 }
 
 .header-list {
@@ -109,7 +102,7 @@ address {
   background-color: var(--background-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -149,21 +142,6 @@ address {
   color: var(--accent-color);
 }
 
-/*=== Эффективные решения вашего бизнеса ===*/
-
-.section-title {
-  text-align: center;
-  font-family: var(--main-font-familyt);
-  color: var(--color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-
-  margin-bottom: 50px;
-}
-
 /*============ Main ============*/
 
 .main-top {
@@ -175,9 +153,7 @@ address {
 .main-title {
   max-width: 695px;
   margin: 0 auto 30px;
-  font-family: var(--main-font-family);
   color: var(--background-color);
-
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -185,24 +161,20 @@ address {
   text-transform: uppercase;
 }
 
-.main-top-button {
+.main-button {
   cursor: pointer;
   font-family: var(--main-font-family);
   color: var(--background-color);
   background: var(--accent-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 
   border-radius: 4px;
   border: none;
 
   padding: 10px 30px;
-}
-
-.main-top-button-name {
-  font-family: var(--main-font-family);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
 }
 
 /*======== Main-Features ======== */
@@ -238,12 +210,9 @@ address {
 }
 
 .features-name {
-  font-family: var(--main-font-family);
-  color: var(--color);
-
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -251,16 +220,26 @@ address {
 }
 
 .features-name-about {
-  font-family: var(--main-font-family);
   color: var(--color-gray);
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 /*===== Services Чем мы занимаемся =====*/
+
+.section-title {
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+}
 
 .services-list {
   list-style: none;
@@ -273,14 +252,7 @@ address {
 
 .team {
   background: var(--second-background-color);
-}
-
-.team-title {
   padding-top: 94px;
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list {
@@ -307,47 +279,38 @@ address {
   margin-right: 30px;
 }
 
-.team-list-item-img {
-  /* margin-bottom: 30px; */
-}
-
 .teammate-name {
-  font-family: var(--main-font-family);
-  color: var(--color);
-
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  line-height: 1.18;
 
   margin-bottom: 10px;
 }
 
 .position {
-  font-family: var(--main-font-family);
   color: var(--color-gray);
 
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.5px;
+  line-height: 1.18;
 }
 
 /*====== Portfolio ======*/
 
 .button-list {
-  width: 100%;
   display: flex;
   justify-content: center;
   list-style: none;
   margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 .button-portfolio {
   cursor: pointer;
 
-  font-family: var(--main-font-family);
-  color: var(--color);
   background-color: var(--second-background-color);
-  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -377,13 +340,6 @@ address {
   background-color: var(--accent-color);
 }
 
-.button-portfolio-name {
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 /*===== Features Portfolio =====*/
 
 .features-portfolio {
@@ -392,7 +348,6 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
 }
 
 .portfolio-container {
@@ -418,8 +373,6 @@ address {
 } */
 
 .portfolio-item-name {
-  font-family: var(--main-font-family);
-  color: var(--color);
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -452,8 +405,6 @@ address {
 }
 
 .footer-list {
-  list-style-type: none;
-  display: inline-block;
   margin-top: 30px;
 }
 
@@ -462,8 +413,6 @@ address {
 }
 
 .address {
-  font-family: var(--main-font-family);
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--background-color);
@@ -475,20 +424,13 @@ address {
 }
 
 .contact-mail-footer {
-  font-family: var(--main-font-family);
-
-  font-style: normal;
-  font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
 }
 
 .contact-tel-footer {
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contact-color);
 }
