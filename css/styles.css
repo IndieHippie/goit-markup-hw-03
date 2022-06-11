@@ -88,7 +88,6 @@ address {
 }
 
 .header-list {
-  list-style: none;
   display: flex;
 }
 
@@ -96,10 +95,8 @@ address {
   margin-right: 50px;
 }
 
-.header-item {
-  font-family: var(--main-font-family);
+.header-item { 
   color: var(--color);
-  background-color: var(--background-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -127,9 +124,7 @@ address {
 }
 
 .contact-link-item {
-  font-family: var(--main-font-family);
   color: var(--color-gray);
-  background-color: var(--background-color);
 
   font-weight: 500;
   font-size: 14px;
@@ -195,7 +190,7 @@ address {
 
 .features-list {
   display: flex;
-  list-style: none;
+ 
   padding-left: 0;
   padding-top: 94px;
 }
@@ -258,7 +253,6 @@ address {
 .team-list {
   display: flex;
   margin: 0 auto;
-  list-style: none;
   text-align: center;
 }
 
@@ -302,7 +296,7 @@ address {
 .button-list {
   display: flex;
   justify-content: center;
-  list-style: none;
+  
   margin-bottom: 50px;
   padding-top: 94px;
 }
